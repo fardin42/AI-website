@@ -1,0 +1,124 @@
+*{
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.account {
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7em 1em 4em;
+    display: flex;
+    position: relative;
+    .brand-account {
+        width: 100%;
+        z-index: 100;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: .5em .4em;
+        display: flex;
+        position: absolute;
+        top: 1.4em;
+    
+       
+    }
+    .content {
+        width: 100%;
+        max-width: 75em;
+        
+        .block-account {
+            width: 100%;
+            max-width: 33.7em;
+            margin-left: auto;
+            margin-right: auto;
+
+            .wrapper-bg {
+                width: 100%;
+                background-color: $white;
+                border-radius: 1.2em;
+                position: relative;
+                overflow: hidden;
+                box-shadow: 0 40px 47px -26px rgba(0, 0, 0, .05), 0 17px 14px -16px rgba(0, 0, 0, .05);
+
+                .account-form {
+                    padding: 3.7em;
+                    .block-heading-account {
+                        text-align: center;
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        align-items: center;
+                        margin-bottom: 2.5em;
+                        display: flex;
+                    }
+                 
+                    .field {
+                        width: 100%;
+                        text-align: left;
+                        flex: 1;
+                        margin-bottom: 1rem;
+                        .field-label {
+                            font-family: "Plus Jakarta Sans", sans-serif;;
+                            color: $paragraph;
+                            letter-spacing: .13em;
+                            text-transform: uppercase;
+                            margin-bottom: .9em;
+                            font-size: .83em;
+                            font-weight: 500;
+                            line-height: 1.2em;
+                        }
+                        .text-field {
+                            height: 3.75em;
+                            border: 1px solid $border;
+                            background-color: $bgc-grey;
+                            color: $black1;
+                            letter-spacing: .025em;
+                            border-radius: .62em;
+                            margin-bottom: 1.6em;
+                            padding: .8em 1.12em;
+                            font-size: 1em;
+                            line-height: 1.3em;
+                            transition: border-color .3s cubic-bezier(.25, .46, .45, .94);
+
+                        }
+                    }
+                    .submit-button {
+                        background-color: $black1;
+                        background-image: linear-gradient(45deg, $blue1, $blue2);
+                        color: $white;
+                        border: none;
+                        text-align: center;
+                        letter-spacing: .025em;
+                        border-radius: .62em;
+                        margin-top: 1.2em;
+                        padding: 1em 2em;
+                        font-size: 1.12em;
+                        font-weight: 500;
+                        line-height: 1.2em;
+                        transition: box-shadow .4s cubic-bezier(.25, .46, .45, .94);
+                        box-shadow: inset 0 0 rgba(19, 36, 54, 0), inset 0 0 rgba(19, 36, 54, 0);
+                        width: 100%;
+                        
+                    }
+                }
+                .text-account {
+                    color: $black2;
+                    text-align: center;
+                    letter-spacing: .025em;
+                    margin-top: 2.2em;
+                    font-size: .9em;
+                    line-height: 1.4em;
+                }
+            }
+        }
+        
+    }
+   
+}
+
+.heading{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    color: $black1;
+}

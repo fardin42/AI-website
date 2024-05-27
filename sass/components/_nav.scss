@@ -1,0 +1,32 @@
+
+.bottomLess{
+    padding: $spaceHalf $space2 0 ;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+          
+    nav{
+       
+        .navSpace{
+            box-sizing: border-box;
+          
+            border-radius: 5rem;
+            padding:  $spaceHalf;
+            backdrop-filter: blur(40px);
+            justify-content: space-between;
+            
+        
+           
+        }
+    }
+}
+.menu{
+    border:2px solid $paragraph;
+    border-radius: $space2;
+   
+    a{
+        color: $paragraph;
+        display: flex;
+        flex-direction: column;
+    }
+}

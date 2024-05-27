@@ -1,0 +1,37 @@
+.card{
+   
+    
+    width: 90%;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: white;
+   margin: auto;
+    img{
+        border-radius: 1rem; 
+        width: 100%;
+        height: auto;
+    }
+   
+.cardContent{
+    margin-top: 1.2rem;
+    border-radius: 1rem;
+   a{
+    
+    padding: 1.8rem 2.2rem;
+    gap: .8rem;
+    h5{
+        color: $black1;
+        font: $h5;
+    }
+    p{
+        font: $para1;
+        color: $paragraph;
+    }
+   }
+}
+
+
+}
+.card-active{
+    background-color: $bgc-grey;
+}

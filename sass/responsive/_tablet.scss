@@ -1,0 +1,127 @@
+@media (min-width:426px) and (max-width:768px){
+   
+    .container{
+        width: 100%;
+    }
+    nav{
+        div{
+            .left-nav{
+    
+                .temp{
+                    display: none;
+                }
+               
+            }
+            .right-nav{
+                flex-direction: row;
+            }
+        }
+    }
+.menu{
+    width: 90%;
+    margin: auto;
+    padding: 1rem;
+   
+    a{
+        padding: .8rem;
+        
+    }
+}
+.btn-hmbrgr{
+    display: block;
+}
+.tri-columns {
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+#span4{
+    grid-area: span 2 / span 1 / span 2 / span 1;
+}
+#span5{
+    grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+
+
+.cube{
+    top: 20% !important;
+    right: -18% !important;
+}
+.heading-banner {
+   
+    font-size: 2.75rem !important;
+}
+.section6 .banner .block-banner {
+     width: 100% !important;
+}
+
+.Cgap {
+    width: 100% !important;
+}
+.myCols3{
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+}
+@media (min-width:426px) and (max-width:960px){
+    nav{
+        div{
+            .left-nav{
+    
+                .temp{
+                    display: none;
+                }
+               
+            }
+            .right-nav{
+                flex-direction: row;
+            }
+        }
+    }
+
+  
+    .tri-columns {
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 0fr;
+    }
+}
+@media (min-width:426px) and (max-width:600px){
+    nav{
+        div{
+            .left-nav{
+    
+                .temp{
+                    display: none;
+                }
+               
+            }
+            .right-nav{
+                flex-direction: row;
+            }
+        }
+    }
+    .col-r{
+        flex-direction: column-reverse;
+    }
+    .sec{
+        width: 100% !important;
+    }
+    .m-column {
+        flex-direction: column;
+    }
+    .tri-columns {
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 0fr;
+    }
+    .signUps{
+        display: none;
+    }
+}

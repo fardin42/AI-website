@@ -1,0 +1,110 @@
+@media (min-width:320px) and (max-width:426px){
+
+    nav{
+    div{
+        .left-nav{
+
+            .temp{
+                display: none;
+            }
+           
+        }
+        .right-nav{
+            flex-direction: row;
+        }
+    }
+}
+.signUps{
+    display: none;
+}
+.tri-columns {
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 0fr;
+}
+.menu{
+    width: 90%;
+    margin: auto;
+    padding: 1rem;
+   
+    a{
+        padding: .8rem;
+        
+    }
+}
+.btn-hmbrgr{
+    display: block;
+}
+.m-column{
+flex-direction: column;
+}
+hgroup{
+    width: 100% !important;
+h2{
+    font: normal 700 9vw "Plus Jakarta Sans", sans-serif !important;
+}
+}
+.card{
+    width: 100%;
+}
+.container{
+    width: 100%;
+}
+.sec{
+    width: 100% !important;
+}
+
+
+.myCube {
+    width: 300px !important;
+    height: 300px !important;
+}
+.myCols3 {
+    flex-direction: column !important;
+}
+.Cgap{
+    width: 100% !important;
+}
+.grid-tools{
+    justify-content: center ;
+}
+.block-banner{
+    width: 100% !important;
+    gap: 1rem;
+    .heading-banner{
+        font-size: 2rem !important;
+    }
+}
+.forRect{
+    width: 0px !important;
+}
+.banner{
+    padding: 4.5rem 2rem !important;
+}
+.cube{
+    top: 55% !important;
+    right: -20% !important;
+}
+.col-r{
+    flex-direction: column-reverse;
+}
+.layout {
+    flex-wrap: wrap;
+    column-gap: .5rem !important;
+    row-gap: 4rem !important;
+    .foot-col{
+        width: 100% !important;
+    }
+    .myFlink{
+        width: 40% !important;
+    }
+    
+}
+.splineCube{
+    width: 300px;
+    height: 300px;
+}
+
+
+}
+
+

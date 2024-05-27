@@ -1,0 +1,43 @@
+nav{
+    .left-nav, .menu{
+    a:hover{
+       
+        color: $hoverParaLink;
+
+    }
+
+}
+}
+.menu{
+    a:hover{
+       
+        color: $hoverParaLink;
+
+    }
+
+}
+
+
+.hoverBlue, .hoverBlue2{
+transition: all .5s ease;
+
+text-align: center;
+}
+
+.hoverBlue:hover {
+   
+    background-color:$blue1;
+    color:$white !important;
+}
+.hoverBlue2{
+    transition: all .3s ease;
+}
+    
+.hoverBlue2:hover {
+    
+   border: 2px solid $blue1;
+}
+.blue-shadow-btn:hover{
+    color: $white;
+box-shadow: inset -15px 13px 30px 0 $blue2, inset 20px -55px 30px 0 $blue1;
+}

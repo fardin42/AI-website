@@ -1,0 +1,60 @@
+.section6{
+    
+.banner{
+    
+    background-image: linear-gradient(45deg, $blue1, $blue2) ;
+    border-radius: 1.2rem;
+
+    perspective: 1300px;
+   
+   
+    justify-content: center;
+    align-items: flex-start;
+    padding: 4.6rem 5.3rem;
+
+    position: relative;
+    overflow: hidden;
+
+    .block-banner{
+        width: 55%;
+        .subtitle {
+            color: $white;
+            border-color: rgba(255, 255, 255, .2);
+        }
+        .heading-banner{
+            color: $white;
+            font-size: 3.37rem;
+            letter-spacing: -.01rem;
+            margin-bottom: 2rem;
+            font-weight: 700;
+            
+           
+        }
+        .paragraph-banner{
+            color: $white;
+            margin-bottom: 2.4rem;
+            
+        }
+        
+    }
+    .forRect{
+
+        .cube{
+            position: absolute;
+            top: 0%;
+            right:2%;
+            transform: rotateX(11deg);
+            filter: opacity(.7);
+            z-index: -1;
+            .myCube{
+               
+                width: 600px;
+                height: 600px;
+            }
+        }
+    }
+
+}
+}
+
+  

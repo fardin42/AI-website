@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./dist/style.css" type="text/css">
+    <title>Log In</title>
+</head>
+<body>
+
+    <div class="account">
+        <a class="brand-account" href="index.html">
+            <img src="https://assets-global.website-files.com/645d213d8e343b6af1224028/65292446d832aae1bf3adeb4_logo.svg" alt="logo">
+        </a>
+
+     <div class="content">
+        <div class="block-account">
+            <div class="wrapper-bg">
+                <div class="account-form">
+                    <hgroup class="block-heading-account">
+                        <h5 class="subtitle">
+                           LOG IN
+                        </h5>
+                        <h2 class="heading">
+                            Log in to your account
+                        </h2>
+                    </hgroup>
+
+                    <form action="">
+                        <div class="field column">
+                            <label class="field-label" for="userEmail">EMAIL</label>
+                            <input class="text-field" type="email" id="userEmail" placeholder="Your Email">
+                        </div>
+                        <div class="field column">
+                            <label class="field-label" for="pass">PASSWORD</label>
+                            <input class="text-field" id="pass" type="password"  placeholder="Your Password"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+                        </div>
+                        <input  type="submit" onclick="validate()" class="submit-button w-button" value="Log in">
+                    </form>
+                </div>
+                <div class="text-account">
+
+                </div>
+            </div>
+        </div>
+     </div>
+    </div>
+    
+  
+    
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="./javascript/components/formValid.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+.activate:active{
+
+    @keyframes upToDown  {
+        0%{
+            transform:translateY(-100px);
+            z-index: -1;
+           
+        }
+        100%{
+            transform: translateY(0px);
+            z-index: 1;
+        }
+    }
+
+}
+.return:active{
+    @keyframes downToUp {
+        0%{
+            transform:translateY(0px);
+          
+          
+        }
+        100%{
+            transform: translateY(-200px);
+            display: none;
+           
+            
+        }
+    }
+}
+.activate{
+    
+    animation-name: upToDown  ;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    
+}
+.return{
+    animation: downToUp;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+}

@@ -1,0 +1,44 @@
+footer{
+    padding: 5.3rem 1.8rem;
+    .layout{
+    
+        justify-content: space-between;
+
+    .foot-col{
+        gap: 1.5rem;
+        
+        width: 41%;
+        .paragraph-tool{
+            max-width: 22rem;
+        }
+        .myLink{
+            width: fit-content;
+            .link{
+                margin: 0 ;
+                gap: .5rem;
+                font: $para1;
+               
+                background-color: #0a18370d;
+                color: $paragraph;
+        
+            }
+        }
+    }
+    .myFLink{
+        width: 19%;
+        gap: 10px;
+
+        .sub_title{
+            font-size: 10px;
+            letter-spacing: .13rem;
+            text-transform: uppercase;
+            margin-bottom: 1.2rem;
+            color: $paragraph;
+        }
+        a{
+            color: $paragraph;
+        }
+
+    }
+}
+}

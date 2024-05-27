@@ -1,0 +1,55 @@
+section{
+    position: relative;
+    .aboveIt{
+        position:relative;
+        z-index: 10;
+       
+
+    }
+    .splineCube{
+    
+    position: sticky;
+    
+    top: 0;
+  z-index: 1;
+
+}
+
+ 
+
+
+.wrapper-clients{
+    margin-top: 4.4rem;
+
+    .subtitle-clients {
+        font: $subtitle;
+        color: $paragraph;
+        text-align: center;
+        letter-spacing: .13rem;
+        text-transform: uppercase;
+        margin-bottom: 3rem;
+        
+        
+        line-height: 1.2rem;
+    }
+    .gradient-clients {
+        
+        background-image: linear-gradient(to right, $bgc-grey 5%, rgba(7, 15, 23, 0) 20%, rgba(7, 15, 23, 0) 80%, $bgc-grey 95%);
+       
+       
+            img{
+          
+                max-height: 2.7em;
+                margin-left: 2.5em;
+                margin-right: 2.5em;
+              }
+      
+      }
+
+
+}
+
+}
+section{
+    padding: 5.3em 1.8em;;
+}

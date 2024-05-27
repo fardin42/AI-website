@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+$para1:normal 500 1rem "Plus Jakarta Sans", sans-serif;
+$heading1:normal 700 5vw "Plus Jakarta Sans", sans-serif;
+$h5:normal 700 1.3rem "Plus Jakarta Sans", sans-serif;
+$subtitle:normal 500 .63rem "Plus Jakarta Sans", sans-serif;
+
+
+h5{
+    
+    color: $black1;
+    letter-spacing: .01rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.24rem;
+}

@@ -1,0 +1,78 @@
+section{
+
+    
+       
+    .extend{
+        padding: 3.7rem 0;
+    }
+    .sec{
+        width: 48%;
+        display: flex;
+        
+        img{
+            width: 80%;
+            height: auto;
+        }
+        }
+}
+
+.subtitle {
+    border: 1px solid $border;
+    color: $black1;
+    letter-spacing: .13rem;
+    text-transform: uppercase;
+    border-radius: 50rem;
+    margin-bottom: 1.2rem;
+    font: $para1;
+    font-size: .63rem;
+    padding: .6em 1.3rem;
+    line-height: 1.2rem;
+    width: fit-content;
+}
+h2 {
+    color: $black1;
+    letter-spacing: -.01rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 3.37rem;
+    font-weight: 800;
+    span {
+        color: $pink1;
+        background-color: rgba(240, 86, 185, .1);
+        border-radius: 10px;
+        padding-left: .2em;
+        padding-right: .2em;
+    }
+  
+}
+.paragraph {
+    color: $paragraph;
+    max-width: 25rem;
+    font-size: 1.125rem;
+    line-height: 1.7rem;
+}
+.list {
+    gap: 1rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    .icon-list {
+        width: 1.5em;
+        height: 1.5em;
+    }
+    h6 {
+        color: $black1;
+        letter-spacing: -.01em;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 1.12em;
+        font-weight: 700;
+        line-height: 1.3em;
+    }   
+   
+}
+.green-span{
+    color: $green-1;
+    background-color: rgba(40, 195, 186, .15);
+}
+

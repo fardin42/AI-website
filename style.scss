@@ -1,0 +1,34 @@
+@import './sass/common/reset';
+
+
+@import './sass/spacing/spacing';
+@import './sass/color/color';
+@import './sass/fonts/fonts';
+
+
+@import './sass/common/common';
+@import './sass/components/buttons';
+@import './sass/components/nav';
+@import './sass/components/header';
+@import './sass/components/section1';
+@import './sass/components/cards';
+@import './sass/components/section2';
+@import './sass/components/section3';
+@import './sass/components/section4';
+@import './sass/components/section5';
+@import './sass/components/section6';
+@import './sass/components/footer';
+
+@import './sass/page/login';
+
+
+@import './sass/animations/btnAnimation';
+@import './sass/animations/hamburgerAnime';
+@import './sass/animations/transform';
+
+
+
+
+@import './sass/responsive/mobile';
+@import './sass/responsive/tablet';
+

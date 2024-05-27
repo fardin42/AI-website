@@ -1,0 +1,48 @@
+.myCols3 {
+    gap: 1.2rem;
+    justify-content: space-between;
+    .Cgap{
+        width: 32%;
+        gap: 1.2rem;
+
+    .wrapper-bg {
+        padding: 2.7rem 3.2rem;
+
+        width: 100%;
+        background-color: $white;
+        border-radius: 1.2em;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 40px 47px -26px rgba(0, 0, 0, .05), 0 17px 14px -16px rgba(0, 0, 0, .05);
+
+        .review {
+
+            gap: 1.5rem;
+            .paragraph-review{
+                color: $paragraph;
+                line-height: 24px;
+                word-spacing: 1px;
+            }
+            .review-info {
+                gap: .9rem;
+
+                img {
+                    border-radius: 100%;
+                }
+
+                .block-review-info {
+                    h6 {
+                        letter-spacing: -.01rem;
+                        margin-top: 0;
+                        margin-bottom: 0;
+                        font-size: 1.12rem;
+                        font-weight: 700;
+                        line-height: 1.3rem;
+                    }
+                }
+            }
+
+        }
+    }
+}
+}

@@ -1,0 +1,26 @@
+nav{
+    a{
+        padding: $space1;
+        color: $paragraph;
+    }
+}
+.btn1{
+    padding: $space1 $space3;
+    background-color: #fff;
+    margin: 0 $spaceHalf;
+    border-radius: $space3;
+    border: none;
+}
+.blue{
+    background-color: $blue1;
+}
+.btn-hmbrgr{
+    display: none;
+}
+.dark-btn{
+   
+    background-image: linear-gradient(20deg,$black1,$black2);
+   
+    transition: box-shadow .4s cubic-bezier(.25, .46, .45, .94);
+    color: $white;
+}

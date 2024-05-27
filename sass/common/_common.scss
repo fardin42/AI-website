@@ -1,0 +1,60 @@
+*{
+    font: $para1;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+body{
+    overflow-x: hidden;
+    background-color: #f3f4f5;
+}
+
+main{
+    width: 100vw;
+    height: fit-content;
+    position: relative;
+    
+
+}
+.betweenUs{
+    justify-content: space-between;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.alignCenter{
+    display: flex;
+    align-items: center;
+}
+.d-none{
+    display: none;
+}
+
+
+.gap2{
+    display: flex;
+    
+ gap: 2.2rem;
+}
+.gap1{
+    gap: 1.2rem;
+}
+.gapHalf{
+    display: flex;
+    gap: .5rem;
+}.f-start{
+    align-items: flex-start;
+}
+.text-center{
+    text-align: center;
+}
