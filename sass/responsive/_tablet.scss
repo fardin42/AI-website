@@ -71,7 +71,7 @@
 
 
 }
-@media (min-width:426px) and (max-width:960px){
+@media (min-width:769px) and (max-width:960px){
     nav{
         div{
             .left-nav{
@@ -86,11 +86,23 @@
             }
         }
     }
-
+    .btn-hmbrgr{
+        display: block;
+    }
   
     .tri-columns {
         grid-template-rows: 1fr;
         grid-template-columns: 1fr 0fr;
+    }
+    .menu{
+        width: 90%;
+        margin: auto;
+        padding: 1rem;
+       
+        a{
+            padding: .8rem;
+            
+        }
     }
 }
 @media (min-width:426px) and (max-width:600px){
