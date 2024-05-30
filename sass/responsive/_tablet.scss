@@ -71,7 +71,7 @@
 
 
 }
-@media (min-width:769px) and (max-width:960px){
+@media  (max-width:960px){
     nav{
         div{
             .left-nav{
@@ -95,6 +95,13 @@
         grid-template-columns: 1fr 0fr;
     }
     .menu{
+        background-color: #ffffff69;
+        backdrop-filter: blur(20px);
+        position: sticky;
+        z-index: 1000;
+        top: 20%;
+        left:5%;
+        
         width: 90%;
         margin: auto;
         padding: 1rem;
@@ -105,7 +112,7 @@
         }
     }
 }
-@media (min-width:426px) and (max-width:600px){
+@media (max-width:600px){
     nav{
         div{
             .left-nav{
@@ -135,5 +142,17 @@
     }
     .signUps{
         display: none;
+    }
+    .layout {
+        flex-wrap: wrap;
+        column-gap: .5rem !important;
+        row-gap: 4rem !important;
+        .foot-col{
+            width: 100% !important;
+        }
+        .myFlink{
+            width: 40% !important;
+        }
+        
     }
 }

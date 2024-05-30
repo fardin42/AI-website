@@ -22,7 +22,7 @@ $("#nav").html(`
             </a>
         </div>
 
-        <a href="#" class="btn1 hoverBlue2">
+        <a href="#" class="btn1 hoverBlue2  no-cart">
             <i class="fa-solid fa-cart-shopping"></i>
         </a>
         <button id="btn-hamburger" class="btn1 hoverBlue btn-hmbrgr"><i class="fa-solid fa-bars "

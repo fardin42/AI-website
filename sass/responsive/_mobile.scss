@@ -1,4 +1,4 @@
-@media (min-width:320px) and (max-width:426px){
+@media  (max-width:426px){
 
     nav{
     div{
@@ -13,6 +13,9 @@
             flex-direction: row;
         }
     }
+}
+.no-cart{
+    display: none !important;
 }
 .signUps{
     display: none;
